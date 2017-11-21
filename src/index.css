@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #002266;
+  color: #337bff;
+}
+
+.timer {
+  border: 1px solid #007bff;
+  border-radius: 10px;
+  max-width: 254px;
+  min-height: 450px;
+  min-width: 254px;
+  margin: 6px;
+}
+
+.timer-new {
+  border: 2px dashed #007bff;
+  opacity: .65;
+}
+
+.timer-new:hover {
+  border: 2px dashed #007bff;
+  opacity: 1;
+}
+
+.add-timer {
+  margin: auto;
+  margin-top: 160px;
+  border: 2px dashed #007bff;
+  border-radius: 65px;
+  max-width: 130px;
+  min-width: 130px;
+  min-height: 130px;
+  background: #002266;
+}
+
+.add-timer:after {
+background-color: #007bff;
+width: 60px;
+height: 2px;
+position: absolute;
+top: 224px;
+left: 97px;
+  content:"";
+}
+
+.add-timer:before {
+background-color: #007bff;
+width: 2px;
+height: 60px;
+position: absolute;
+top: 195px;
+left: 126px;
+  content:"";
+}
+
+.btn-primary, .btn-primary:disabled{
+  color: #66adff;
+  background: #002266;
+}
+
+.btn-primary:hover, .add-timer:hover {
+  background: #113377;
+}
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn.focus:active,
+.btn:active:focus,
+.btn:focus, .add-timer{
+  outline: 0 !important;
+  outline-offset: 0  !important;
+  background-image: none  !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none  !important;
+}
+
+.timer h1{
+  font-size: 3rem;
+  margin-top: 165px;
+  margin-bottom: 45px;
+  color: #66adff;
+}
